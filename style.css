@@ -676,8 +676,17 @@ a {
 
 .col-sm-6{
     text-align: center;
+    margin: auto;
 }
 
+#colonne{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    width: 100%;
+}
 .hero-bloc-text {
     font-size: 38px;
 }
