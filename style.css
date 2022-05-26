@@ -687,6 +687,7 @@ a {
 label{
     width: 100%;
 }
+
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -729,15 +730,12 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 800px;
     margin: auto auto auto auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
-}
-
-.social p{
-    color:white !important;
 }
 
 h2 {
