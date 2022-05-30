@@ -730,12 +730,24 @@ p {
 }
 
 .social {
-    max-width: 800px;
+    max-width: 600px;
     margin: auto auto auto auto;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    align-items: baseline;
     
+}
+
+.txt-social{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+
+}
+
+#sp{
+    justify-content: space-between;
 }
 
 h2 {
